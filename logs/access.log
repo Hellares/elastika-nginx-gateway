@@ -13,3 +13,7 @@
 179.6.27.58 - - [27/May/2025:02:45:21 +0000] "GET /favicon.ico HTTP/1.1" 200 52 "http://86.48.26.221/files/default/1748144979835-test-image.png" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
 185.218.84.7 - - [27/May/2025:02:58:55 +0000] "GET / HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
 204.76.203.206 - - [27/May/2025:03:01:42 +0000] "GET / HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+204.76.203.212 - - [27/May/2025:03:14:00 +0000] "GET / HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+217.24.157.249 - - [27/May/2025:03:26:19 +0000] "GET / HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36" "-"
+176.65.149.188 - - [27/May/2025:03:31:06 +0000] "GET / HTTP/1.1" 200 52 "-" "-" "-"
+79.124.58.198 - - [27/May/2025:03:36:57 +0000] "GET /actuator/gateway/routes HTTP/1.1" 200 52 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "-"
