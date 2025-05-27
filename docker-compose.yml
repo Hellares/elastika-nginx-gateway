@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  nginx-gateway:
+    image: nginx:alpine
+    container_name: elastika-nginx-gateway
+    hostname: nginx-gateway
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      # Solo montar conf.d, no nginx.conf principal
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - /var/images:/var/images:ro
+      - ./logs:/var/log/nginx
+    networks:
+      - elastika-network
+    healthcheck:
+      test: ["CMD", "nginx", "-t"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+networks:
+  elastika-network:
+    external: true
